@@ -1,0 +1,74 @@
+/* MAIN BASKET */
+.main-basket {
+    padding-top: 100px;
+}
+
+.basket-title {
+    font-weight: 600;
+}
+
+.item-card {
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    border: none;
+    transition: .3s all ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    padding: 20px;
+}
+
+.item-card img {
+    max-width: 100%;
+    border-radius: 10px
+}
+
+.item-name {
+    font-size: 1.2em;
+}
+
+.item-price {
+    font-weight: 600;
+}
+
+.delete, .edit {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.edit-delete {
+    text-align: end;
+}
+
+.total-card {
+    border-radius: 10px;
+    border: 1px solid rgb(90, 110, 0);
+    padding: 1.3em;
+}
+
+.total {
+    font-weight: 600;
+}
+
+.item-price-total, .total-amount {
+    text-align: end;
+}
+
+.total-amount-all h6 {
+    font-weight: 600;
+}
+
+.buy {
+    margin-top: .5em;
+    width: 100%;
+    padding: .7em 2em;
+    border-radius: 100px;
+    border: 0;
+    background-color: rgb(90, 110, 0);
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.buy:hover {
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,56 @@
+/* FOOTER */
+footer {
+    background-color: rgb(54, 54, 54);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+
+
+.about-footer, .konten-footer, .follow-footer {
+    text-align: left;
+}
+
+.footer-title {
+    color: white;
+    margin-bottom: 2.5vh;
+}
+
+.about-footer-desc {
+    color: rgb(116, 116, 116);
+}
+
+.footer-item {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 1vh;
+}
+
+.footer-link {
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.footer-icon-list, .copyright {
+    color: rgb(116, 116, 116);
+}
+
+.footer-icon {
+    font-size: 1.2em;
+    margin-right: 1.2em;
+}
+
+.footer-line {
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+    color: rgb(116, 116, 116);
+}
+
+.fa-heart {
+    color: red;
+}

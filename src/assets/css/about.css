@@ -1,0 +1,24 @@
+/* ABOUT PAGE */
+.about-page {
+    margin-top: 30vh;
+}
+
+.about-title {
+    color: black;
+    font-weight: 800;
+}
+
+.about-content {
+    margin: 4em 2em;
+    justify-content: center;
+}
+
+
+.about-desc {
+    text-align: left;
+}
+
+.about-btn:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,38 @@
+/* HERO */
+
+.container {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.heading {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.big-title {
+    font-weight: 900;
+}
+
+.heading-desc {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.heading-btn, .about-btn, .form-button, .product-details {
+    padding: .7em 2em;
+    border-radius: 100px;
+    border: 0;
+    background-color: rgb(90, 110, 0);
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.heading-btn:hover {
+    color: black;
+    background-color: white;
+}

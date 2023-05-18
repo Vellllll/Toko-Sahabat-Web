@@ -1,0 +1,151 @@
+/* MAIN PRODUCT */
+.main-product {
+    padding-top: 100px;
+    text-align: left;
+}
+
+.product-name {
+    font-weight: 600;
+}
+
+.product-card img {
+    max-width: 100%;
+    padding: .5em;
+}
+
+/* .slider img {
+    padding: .3em;
+} */
+
+.slider {
+    display: flex;
+}
+
+.product-description {
+    padding: .5em;
+}
+
+.price {
+    font-weight: 600;
+}
+
+.sizes {
+    display: flex;
+}
+
+.size {
+    border: 1px rgb(112, 112, 112) solid;
+    margin-right: .3em;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    max-width: 100%;
+    opacity: .35;
+}
+
+.size.active {
+    opacity: 1;
+    color: rgb(90, 110, 0);
+    border-color: rgb(90, 110, 0);
+}
+
+.details {
+    text-align: center;
+}
+
+.details-title {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.total-card {
+    padding: 20px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 15px;
+}
+
+.total-card h6 {
+    font-weight: 600;
+}
+
+.counter {
+    width: 60%;
+    border: 1px solid rgb(212, 212, 212);;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.counter-input {
+    width: 30%;
+    text-align: center;
+    border-radius: 0;
+    /* border: 1px solid rgb(212, 212, 212); */
+    border: none;
+    /* padding: 5px 10px; */
+    margin: 0 .7em;
+    font-size: 1em;
+}
+
+.counter-input::-webkit-outer-spin-button,
+.counter-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.minus {
+    /* padding: 5px 10px; */
+    /* border: 1px solid rgb(212, 212, 212); */
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.plus {
+    /* padding: 5px 10px; */
+    /* border: 1px solid rgb(212, 212, 212); */
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.subtotal {
+    text-align: left;
+}
+
+.subtotal-price {
+    text-align: end;
+}
+
+.checkout {
+    margin-top: .5em;
+    width: 100%;
+    padding: .7em 2em;
+    border-radius: 100px;
+    border: 0;
+    background-color: rgb(90, 110, 0);
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.checkout:hover {
+    color: white;
+    background-color: black;
+}
+
+.info {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.chat {
+    border-right: .3px solid rgb(204, 204, 204);
+}
+
+.share {
+    border-left: .3px solid rgb(204, 204, 204);
+}

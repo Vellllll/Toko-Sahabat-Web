@@ -1,0 +1,23 @@
+/* OTHER PRODUCT */
+.other-title {
+    font-weight: 600;
+}
+
+.other-product-card {
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    border: none;
+    transition: .3s all ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+
+.other-product-card img {
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.other-product-desc {
+    padding: 0em 1em 1em 1em;
+}

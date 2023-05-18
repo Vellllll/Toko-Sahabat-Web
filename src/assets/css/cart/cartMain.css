@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;800&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.home-link {
+    text-decoration: none;
+    color: black;
+}
+
+@import "cartList.css";

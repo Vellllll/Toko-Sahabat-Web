@@ -1,0 +1,16 @@
+/* LOCATION PAGE */
+.location-page {
+    padding-top: 10vh;
+    margin-bottom: 15vh;
+}
+
+.location-title {
+    font-weight: 900;
+    margin-bottom: 2vh;
+}
+
+.location-icon {
+    font-size: 1.5em;
+    margin-bottom: 5vh;
+    color: rgb(90, 110, 0);
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;800&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.4),rgba(0,0,0,0.4)), url("../img/fototokosahabat.png");
+    background-size: cover;
+}
+
+@import "navigation.css";
+@import "hero.css";
+@import "about.css";
+@import "products.css";
+@import "ask.css";
+@import "location.css";
+@import "contact.css";
+@import "footer.css";
